@@ -14,6 +14,7 @@
 		05A5440E1B17F7E200BFDD33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05A5440D1B17F7E200BFDD33 /* Images.xcassets */; };
 		05A544111B17F7E200BFDD33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A5440F1B17F7E200BFDD33 /* LaunchScreen.xib */; };
 		05A5441D1B17F7E300BFDD33 /* LCKeyboardManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A5441C1B17F7E300BFDD33 /* LCKeyboardManagerTests.m */; };
+		05A544291B17F89F00BFDD33 /* LCKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A544281B17F89F00BFDD33 /* LCKeyboardManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		05A544161B17F7E300BFDD33 /* LCKeyboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCKeyboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05A5441B1B17F7E300BFDD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05A5441C1B17F7E300BFDD33 /* LCKeyboardManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCKeyboardManagerTests.m; sourceTree = "<group>"; };
+		05A544271B17F89F00BFDD33 /* LCKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCKeyboardManager.h; sourceTree = "<group>"; };
+		05A544281B17F89F00BFDD33 /* LCKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCKeyboardManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		05A543FF1B17F7E200BFDD33 /* LCKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
+				05A544261B17F81F00BFDD33 /* LCKeyboardManager */,
 				05A544041B17F7E200BFDD33 /* AppDelegate.h */,
 				05A544051B17F7E200BFDD33 /* AppDelegate.m */,
 				05A544071B17F7E200BFDD33 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				05A5441B1B17F7E300BFDD33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05A544261B17F81F00BFDD33 /* LCKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				05A544271B17F89F00BFDD33 /* LCKeyboardManager.h */,
+				05A544281B17F89F00BFDD33 /* LCKeyboardManager.m */,
+			);
+			path = LCKeyboardManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05A544091B17F7E200BFDD33 /* ViewController.m in Sources */,
+				05A544291B17F89F00BFDD33 /* LCKeyboardManager.m in Sources */,
 				05A544061B17F7E200BFDD33 /* AppDelegate.m in Sources */,
 				05A544031B17F7E200BFDD33 /* main.m in Sources */,
 			);
