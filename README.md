@@ -1,0 +1,3 @@
+# LCKeyboardManager
+针对IQKeyboardManager无效的情况，做了特定修改，支持top view 依赖top layout guid的控件
+把LCKeyboardManager文件夹直接添加到工程里即可
